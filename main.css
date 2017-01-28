@@ -1,77 +1,66 @@
-.background-image{
+.background-image {
     height: 100vh;
     width: 100%;
-    background:url(../main-bg.jpeg) no-repeat center;
+    background: url(../main-bg.jpeg) no-repeat center;
     background-size: cover;
-    
-}
-.container{
-width: 100%;
-height: 30px;
-display: flex;
-justify-content: space-between;
-align-items: center;
 }
 
-.border{
- border-style: solid;
+.border {
+    border-style: solid;
     border-width: 2px;
     border-color: white;
     padding: 10px;
     border-radius: 50%;
 }
-.hamburger
-{
+
+.hamburger {
     background-image: url('./menu_icon.svg');
     background-repeat: no-repeat;
-background-size: cover;
-height: 30px;
-width: 30px;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
 }
-.twitter
-{
+
+.twitter {
     background-image: url('./twitter-logo.svg');
     background-repeat: no-repeat;
-background-size: cover;
-height: 30px;
-width: 36px;
-
+    background-size: cover;
+    height: 25px;
+    width: 25px;
 }
-.facebook
-{
+
+.facebook {
     background-image: url('./facebook-logo.svg');
     background-repeat: no-repeat;
-background-size: cover;
-height: 20px;
-width: 20px;
-
+    background-size: cover;
+    height: 20px;
+    width: 20px;
 }
-.main-app-header{
+
+.main-app-header {
     width: 100%;
     padding: 25px;
-    display: flex;
-    justify-content: space-between
-    
+    position: relative;
 }
-.menu{
-width: 50px;
-height: 50px;
+.container{
+   width: 100%;
+display: flex;
+margin: 0 200px
+}
 
-}
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex
+    display: flex;
 }
 
 @media(min-width: 650px) {
     .menu {
         width: 500px;
-height: 500px;
-display: flex;
-justify-content: center;
-align-items: center;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
 }
