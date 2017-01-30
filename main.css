@@ -27,6 +27,7 @@
     background-size: cover;
     height: 25px;
     width: 25px;
+    margin-right: 50px;
 }
 
 .facebook {
@@ -45,7 +46,9 @@
 .container{
    width: 100%;
 display: flex;
-margin: 0 200px
+justify-content: flex-end;
+margin-right: 11git0px;
+padding-top: 10px;
 }
 
 ul {
